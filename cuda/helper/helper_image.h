@@ -13,15 +13,16 @@
 #ifndef HELPER_IMAGE_H
 #define HELPER_IMAGE_H
 
+#include <assert.h>
+#include <math.h>
+
 #include <string>
 #include <fstream>
 #include <vector>
 #include <iostream>
 #include <algorithm>
 
-#include <assert.h>
-#include <exception.h>
-#include <math.h>
+#include "exception.h"
 
 #ifndef MIN
 #define MIN(a,b) ((a < b) ? a : b)
@@ -34,7 +35,7 @@
 #define EXIT_WAIVED 2
 #endif
 
-#include <helper_string.h>
+#include "helper_string.h"
 
 // namespace unnamed (internal)
 namespace
